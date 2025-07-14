@@ -83,37 +83,53 @@ function generateRssFeed() {
     .sort((a, b) => new Date(b.date) - new Date(a.date));
 
   // Add posts to feed
-  posts.forEach(post => {
-    // Skip posts with missing required fields
-    if (!post.title || !post.date || !post.slug) {
-      console.log(`Skipping post ${post.slug || 'unknown'} due to missing required fields`);
-      return;
+  posts.forEach((post, index) => {
+    try {
+      // Skip posts with missing required fields
+      if (!post.title || !post.date || !post.slug) {
+        console.log(`Skipping post ${post.slug || 'unknown'} due to missing required fields`);
+        return;
+      }
+
+      // Ensure all fields are strings and not undefined/null
+      const safeTitle = String(post.title || 'Untitled').trim();
+      const safeExcerpt = String(post.excerpt || 'No excerpt available').trim();
+      const safeAuthor = String(post.author || 'Dean Kapland').trim();
+      const safeDate = post.date ? new Date(post.date) : new Date();
+      
+      // Ensure categories are valid strings
+      const safeCategories = post.categories && Array.isArray(post.categories) 
+        ? post.categories.filter(cat => cat && typeof cat === 'string').map(cat => ({ name: String(cat).trim() }))
+        : [];
+
+      // Additional safety checks
+      if (!safeTitle || safeTitle === 'undefined' || safeTitle === 'null') {
+        console.log(`Skipping post ${post.slug} - invalid title`);
+        return;
+      }
+
+      if (!safeExcerpt || safeExcerpt === 'undefined' || safeExcerpt === 'null') {
+        console.log(`Skipping post ${post.slug} - invalid excerpt`);
+        return;
+      }
+
+      feed.addItem({
+        title: safeTitle,
+        id: `${siteUrl}/blog/${post.slug}`,
+        link: `${siteUrl}/blog/${post.slug}`,
+        description: safeExcerpt,
+        content: safeExcerpt, // You could include full content here if desired
+        author: [{
+          name: safeAuthor,
+          email: 'kaplan@kapsoft.com'
+        }],
+        date: safeDate,
+        category: safeCategories
+      });
+    } catch (error) {
+      console.log(`Error processing post ${post.slug || index}:`, error.message);
+      // Continue with next post instead of crashing
     }
-
-    // Ensure all fields are strings and not undefined/null
-    const safeTitle = String(post.title || 'Untitled');
-    const safeExcerpt = String(post.excerpt || 'No excerpt available');
-    const safeAuthor = String(post.author || 'Dean Kapland');
-    const safeDate = post.date ? new Date(post.date) : new Date();
-    
-    // Ensure categories are valid strings
-    const safeCategories = post.categories && Array.isArray(post.categories) 
-      ? post.categories.filter(cat => cat && typeof cat === 'string').map(cat => ({ name: String(cat) }))
-      : [];
-
-    feed.addItem({
-      title: safeTitle,
-      id: `${siteUrl}/blog/${post.slug}`,
-      link: `${siteUrl}/blog/${post.slug}`,
-      description: safeExcerpt,
-      content: safeExcerpt, // You could include full content here if desired
-      author: [{
-        name: safeAuthor,
-        email: 'kaplan@kapsoft.com'
-      }],
-      date: safeDate,
-      category: safeCategories
-    });
   });
 
   // Create public directory if it doesn't exist
@@ -122,22 +138,59 @@ function generateRssFeed() {
     fs.mkdirSync(publicDir);
   }
 
-  // Write the RSS feed
-  fs.writeFileSync(
-    path.join(publicDir, 'rss.xml'),
-    feed.rss2()
-  );
+  try {
+    // Write the RSS feed
+    fs.writeFileSync(
+      path.join(publicDir, 'rss.xml'),
+      feed.rss2()
+    );
 
-  // Also generate Atom and JSON feeds
-  fs.writeFileSync(
-    path.join(publicDir, 'atom.xml'),
-    feed.atom1()
-  );
+    // Also generate Atom and JSON feeds
+    fs.writeFileSync(
+      path.join(publicDir, 'atom.xml'),
+      feed.atom1()
+    );
 
-  fs.writeFileSync(
-    path.join(publicDir, 'feed.json'),
-    feed.json1()
-  );
+    fs.writeFileSync(
+      path.join(publicDir, 'feed.json'),
+      feed.json1()
+    );
+  } catch (error) {
+    console.error('Error generating feed files:', error.message);
+    // Try to generate a minimal working feed
+    try {
+      const minimalFeed = new Feed({
+        title: 'Kapsoft',
+        description: 'Thoughts on software development and technology',
+        id: siteUrl,
+        link: siteUrl,
+        language: 'en',
+        copyright: `All rights reserved ${new Date().getFullYear()}, Dean Kapland`,
+        author: {
+          name: 'Dean Kapland',
+          email: 'kaplan@kapsoft.com',
+          link: `${siteUrl}/about`
+        }
+      });
+
+      fs.writeFileSync(
+        path.join(publicDir, 'rss.xml'),
+        minimalFeed.rss2()
+      );
+      fs.writeFileSync(
+        path.join(publicDir, 'atom.xml'),
+        minimalFeed.atom1()
+      );
+      fs.writeFileSync(
+        path.join(publicDir, 'feed.json'),
+        minimalFeed.json1()
+      );
+      console.log('Generated minimal RSS feeds due to error');
+    } catch (minimalError) {
+      console.error('Failed to generate even minimal feeds:', minimalError.message);
+      process.exit(1);
+    }
+  }
   
   console.log('RSS feed generated successfully!');
   console.log(`- RSS: ${siteUrl}/rss.xml`);
