@@ -3,6 +3,35 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 
+// Function to decode HTML entities
+function decodeHtmlEntities(text) {
+  if (!text || typeof text !== 'string') {
+    return text;
+  }
+  
+  const htmlEntities = {
+    '&amp;': '&',
+    '&lt;': '<',
+    '&gt;': '>',
+    '&quot;': '"',
+    '&#39;': "'",
+    '&#x27;': "'",
+    '&#x2F;': '/',
+    '&#x60;': '`',
+    '&#x3D;': '=',
+    '&#8217;': "'",
+    '&#8216;': "'",
+    '&#8220;': '"',
+    '&#8221;': '"',
+    '&#8230;': '...',
+    '&nbsp;': ' '
+  };
+  
+  return text.replace(/&[#\w]+;/g, (entity) => {
+    return htmlEntities[entity] || entity;
+  });
+}
+
 const postsDirectory = path.join(process.cwd(), 'posts');
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://deanonsoftware.com';
 
@@ -91,15 +120,15 @@ function generateRssFeed() {
         return;
       }
 
-      // Ensure all fields are strings and not undefined/null
-      const safeTitle = String(post.title || 'Untitled').trim();
-      const safeExcerpt = String(post.excerpt || 'No excerpt available').trim();
-      const safeAuthor = String(post.author || 'Dean Kapland').trim();
+      // Ensure all fields are strings and not undefined/null, and decode HTML entities
+      const safeTitle = decodeHtmlEntities(String(post.title || 'Untitled').trim());
+      const safeExcerpt = decodeHtmlEntities(String(post.excerpt || 'No excerpt available').trim());
+      const safeAuthor = decodeHtmlEntities(String(post.author || 'Dean Kapland').trim());
       const safeDate = post.date ? new Date(post.date) : new Date();
       
-      // Ensure categories are valid strings
+      // Ensure categories are valid strings and decode HTML entities
       const safeCategories = post.categories && Array.isArray(post.categories) 
-        ? post.categories.filter(cat => cat && typeof cat === 'string').map(cat => ({ name: String(cat).trim() }))
+        ? post.categories.filter(cat => cat && typeof cat === 'string').map(cat => ({ name: decodeHtmlEntities(String(cat).trim()) }))
         : [];
 
       // Additional safety checks
