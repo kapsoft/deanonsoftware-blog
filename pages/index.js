@@ -79,9 +79,9 @@ export default function Home({ allPostsData }) {
   return (
     <Layout onSearch={handleSearch}>
       <Head>
-        <title>Kapsoft</title>
+        <title>deanonsoftware</title>
         <meta name="description" content="Thoughts on software development and technology" />
-        <meta property="og:title" content="Kapsoft" />
+        <meta property="og:title" content="deanonsoftware" />
         <meta property="og:description" content="Thoughts on software development and technology" />
         <meta property="og:type" content="website" />
       </Head>

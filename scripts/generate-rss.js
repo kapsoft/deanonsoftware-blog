@@ -10,7 +10,7 @@ function generateRssFeed() {
   console.log('Generating RSS feed...');
   
   const feed = new Feed({
-    title: 'Kapsoft',
+    title: 'deanonsoftware',
     description: 'Thoughts on software development and technology',
     id: siteUrl,
     link: siteUrl,
@@ -160,7 +160,7 @@ function generateRssFeed() {
     // Try to generate a minimal working feed
     try {
       const minimalFeed = new Feed({
-        title: 'Kapsoft',
+        title: 'deanonsoftware',
         description: 'Thoughts on software development and technology',
         id: siteUrl,
         link: siteUrl,

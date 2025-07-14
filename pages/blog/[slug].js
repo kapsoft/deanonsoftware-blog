@@ -27,7 +27,7 @@ export default function Post({ postData }) {
   return (
     <Layout>
       <Head>
-        <title>{postData.title || 'Post'} - Kapsoft</title>
+        <title>{postData.title || 'Post'} - deanonsoftware</title>
         <meta name="description" content={postData.excerpt || ''} />
         <meta property="og:title" content={postData.title || ''} />
         <meta property="og:description" content={postData.excerpt || ''} />

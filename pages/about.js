@@ -5,8 +5,8 @@ export default function About() {
   return (
     <Layout>
       <Head>
-        <title>About - Kapsoft</title>
-        <meta name="description" content="About Dean Kapland and Kapsoft blog" />
+        <title>About - deanonsoftware</title>
+        <meta name="description" content="About Dean Kapland and deanonsoftware blog" />
       </Head>
 
       <div className="max-w-3xl mx-auto px-4 py-8">
