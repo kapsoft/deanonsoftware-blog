@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://deanonsoftware.com</id>
-    <title>Kapsoft</title>
-    <updated>2025-07-14T17:39:06.707Z</updated>
+    <title>deanonsoftware</title>
+    <updated>2025-07-14T19:34:04.981Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Dean Kapland</name>
@@ -137,7 +137,7 @@
         <category label="Software Business"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What&#8217;s your Perfect Stack?]]></title>
+        <title type="html"><![CDATA[What's your Perfect Stack?]]></title>
         <id>https://deanonsoftware.com/blog/2014-11-12-whats-your-perfect-stack</id>
         <link href="https://deanonsoftware.com/blog/2014-11-12-whats-your-perfect-stack"/>
         <updated>2014-11-12T21:19:18.000Z</updated>
@@ -405,7 +405,7 @@
         <category label="Software Business"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Kiss my&#8230;for a change]]></title>
+        <title type="html"><![CDATA[Kiss my...for a change]]></title>
         <id>https://deanonsoftware.com/blog/2011-10-10-kiss-my-for-a-change</id>
         <link href="https://deanonsoftware.com/blog/2011-10-10-kiss-my-for-a-change"/>
         <updated>2011-10-10T15:18:21.000Z</updated>
@@ -639,7 +639,7 @@
         <category label="Software Business"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Coding Horror &#8220;Nobody is going to help you, and that&#8217;s Awesome]]></title>
+        <title type="html"><![CDATA[Coding Horror "Nobody is going to help you, and that's Awesome]]></title>
         <id>https://deanonsoftware.com/blog/2011-07-27-coding-horror-nobody-is-going-to-help-you-and-thats-awesome</id>
         <link href="https://deanonsoftware.com/blog/2011-07-27-coding-horror-nobody-is-going-to-help-you-and-thats-awesome"/>
         <updated>2011-07-27T20:35:32.000Z</updated>
@@ -873,7 +873,7 @@
         <category label="Software Business"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Apple&#8217;s new headquarters presented by none other then Steve Jobs]]></title>
+        <title type="html"><![CDATA[Apple's new headquarters presented by none other then Steve Jobs]]></title>
         <id>https://deanonsoftware.com/blog/2011-06-08-apples-new-headquarters-presented-by-none-other-then-steve-jobs</id>
         <link href="https://deanonsoftware.com/blog/2011-06-08-apples-new-headquarters-presented-by-none-other-then-steve-jobs"/>
         <updated>2011-06-09T03:30:43.000Z</updated>
@@ -1094,7 +1094,7 @@
         <category label="Software Business"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SPITZER on CNN &#8220;speak plain English&#8221;]]></title>
+        <title type="html"><![CDATA[SPITZER on CNN "speak plain English"]]></title>
         <id>https://deanonsoftware.com/blog/2011-03-23-spitzer-on-cnn-speak-plain-english</id>
         <link href="https://deanonsoftware.com/blog/2011-03-23-spitzer-on-cnn-speak-plain-english"/>
         <updated>2011-03-23T19:28:07.000Z</updated>
@@ -1276,7 +1276,7 @@
         <category label="Software Business"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Update on &#8220;CuttingBoardGate&#8221;]]></title>
+        <title type="html"><![CDATA[Update on "CuttingBoardGate"]]></title>
         <id>https://deanonsoftware.com/blog/2011-02-08-update-on-cuttingboardgate</id>
         <link href="https://deanonsoftware.com/blog/2011-02-08-update-on-cuttingboardgate"/>
         <updated>2011-02-09T01:16:36.000Z</updated>
@@ -1513,7 +1513,7 @@
         <category label="Software Business"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Tim Berners-Lee Says Web is Dead? or in trouble&#8230;]]></title>
+        <title type="html"><![CDATA[Tim Berners-Lee Says Web is Dead? or in trouble...]]></title>
         <id>https://deanonsoftware.com/blog/2010-11-19-tim-berners-lee-says-web-is-dead-or-in-trouble</id>
         <link href="https://deanonsoftware.com/blog/2010-11-19-tim-berners-lee-says-web-is-dead-or-in-trouble"/>
         <updated>2010-11-20T02:08:25.000Z</updated>
@@ -1734,7 +1734,7 @@
         <category label="Software Business"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Tom Peters &#8220;The Little BIG Things&#8221; Vook review]]></title>
+        <title type="html"><![CDATA[Tom Peters "The Little BIG Things" Vook review]]></title>
         <id>https://deanonsoftware.com/blog/2010-09-19-tom-peters-the-little-big-things-vook-review</id>
         <link href="https://deanonsoftware.com/blog/2010-09-19-tom-peters-the-little-big-things-vook-review"/>
         <updated>2010-09-19T18:29:46.000Z</updated>
@@ -1747,7 +1747,7 @@
         <category label="Software Business"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Kapsoft Ships RF Testing System&#8230;we shipped something!!!]]></title>
+        <title type="html"><![CDATA[Kapsoft Ships RF Testing System...we shipped something!!!]]></title>
         <id>https://deanonsoftware.com/blog/2010-09-18-kapsoft-ships-rf-testing-system-we-shipped-something</id>
         <link href="https://deanonsoftware.com/blog/2010-09-18-kapsoft-ships-rf-testing-system-we-shipped-something"/>
         <updated>2010-09-18T19:23:21.000Z</updated>
@@ -1760,7 +1760,7 @@
         <category label="Software Business"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Review of Seth Godin&#8217;s Linchpin read on Vook]]></title>
+        <title type="html"><![CDATA[Review of Seth Godin's Linchpin read on Vook]]></title>
         <id>https://deanonsoftware.com/blog/2010-09-06-review-of-seth-godins-linchpin-read-on-vook</id>
         <link href="https://deanonsoftware.com/blog/2010-09-06-review-of-seth-godins-linchpin-read-on-vook"/>
         <updated>2010-09-06T16:23:36.000Z</updated>
@@ -1786,7 +1786,7 @@
         <category label="Software Business"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Inception, my thoughts. Unless I&#8217;m &#8220;really&#8221; dreaming.]]></title>
+        <title type="html"><![CDATA[Inception, my thoughts. Unless I'm "really" dreaming.]]></title>
         <id>https://deanonsoftware.com/blog/2010-07-24-inception-my-thoughts-unless-im-really-dreaming</id>
         <link href="https://deanonsoftware.com/blog/2010-07-24-inception-my-thoughts-unless-im-really-dreaming"/>
         <updated>2010-07-24T19:43:22.000Z</updated>
@@ -2427,7 +2427,7 @@
         <category label="Software Business"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Free Ticket to &#8220;Voices That Matter iPhone Developers Conference&#8221;]]></title>
+        <title type="html"><![CDATA[Free Ticket to "Voices That Matter iPhone Developers Conference"]]></title>
         <id>https://deanonsoftware.com/blog/2009-09-10-free-ticket-to-voice-that-matter-iphone-developers-conference</id>
         <link href="https://deanonsoftware.com/blog/2009-09-10-free-ticket-to-voice-that-matter-iphone-developers-conference"/>
         <updated>2009-09-10T19:34:15.000Z</updated>
@@ -2781,7 +2781,7 @@
         <category label="Uncategorized"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[I&#8217;d rather read]]></title>
+        <title type="html"><![CDATA[I'd rather read]]></title>
         <id>https://deanonsoftware.com/blog/2008-10-14-id-rather-read</id>
         <link href="https://deanonsoftware.com/blog/2008-10-14-id-rather-read"/>
         <updated>2008-10-14T05:34:22.000Z</updated>
@@ -3040,7 +3040,7 @@
         <category label="Synthetic Instruments"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Russia builds &#8216;most powerful bomb&#8217;]]></title>
+        <title type="html"><![CDATA[Russia builds 'most powerful bomb']]></title>
         <id>https://deanonsoftware.com/blog/2007-09-12-russia-builds-most-powerful-bomb</id>
         <link href="https://deanonsoftware.com/blog/2007-09-12-russia-builds-most-powerful-bomb"/>
         <updated>2007-09-12T15:34:05.000Z</updated>
@@ -3175,7 +3175,7 @@
         <category label="OpenMoko"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[California&#8217;s positive attitude]]></title>
+        <title type="html"><![CDATA[California's positive attitude]]></title>
         <id>https://deanonsoftware.com/blog/2007-07-19-californias-positive-attitude</id>
         <link href="https://deanonsoftware.com/blog/2007-07-19-californias-positive-attitude"/>
         <updated>2007-07-19T07:25:31.000Z</updated>

@@ -51,7 +51,7 @@ export default function Home({ allPostsData }) {
     if (isSearching && router.query.page && router.query.page !== '1') {
       router.push('/', undefined, { shallow: true });
     }
-  }, [isSearching, router.query.page]);
+  }, [isSearching, router.query.page, router]);
 
   const handleSearch = async (query) => {
     console.log('handleSearch called with:', query);

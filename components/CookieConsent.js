@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 export default function CookieConsent() {
   const [showBanner, setShowBanner] = useState(false);
@@ -32,12 +33,12 @@ export default function CookieConsent() {
           <p className="text-sm leading-relaxed">
             We use cookies to enhance your experience on our website. 
             By continuing to browse, you agree to our use of cookies. 
-            <a 
+            <Link 
               href="/privacy" 
               className="text-blue-300 hover:text-blue-200 underline ml-1"
             >
               Learn more
-            </a>
+            </Link>
           </p>
         </div>
         <div className="flex gap-3 flex-shrink-0">

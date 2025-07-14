@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Kapsoft</title>
+        <title>deanonsoftware</title>
         <link>https://deanonsoftware.com</link>
         <description>Thoughts on software development and technology</description>
-        <lastBuildDate>Mon, 14 Jul 2025 17:39:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Jul 2025 19:34:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <image>
-            <title>Kapsoft</title>
+            <title>deanonsoftware</title>
             <url>https://deanonsoftware.com/favicon.ico</url>
             <link>https://deanonsoftware.com</link>
         </image>
@@ -110,7 +110,7 @@
             <category>Software Business</category>
         </item>
         <item>
-            <title><![CDATA[What&#8217;s your Perfect Stack?]]></title>
+            <title><![CDATA[What's your Perfect Stack?]]></title>
             <link>https://deanonsoftware.com/blog/2014-11-12-whats-your-perfect-stack</link>
             <guid>https://deanonsoftware.com/blog/2014-11-12-whats-your-perfect-stack</guid>
             <pubDate>Wed, 12 Nov 2014 21:19:18 GMT</pubDate>
@@ -318,7 +318,7 @@
             <category>Software Business</category>
         </item>
         <item>
-            <title><![CDATA[Kiss my&#8230;for a change]]></title>
+            <title><![CDATA[Kiss my...for a change]]></title>
             <link>https://deanonsoftware.com/blog/2011-10-10-kiss-my-for-a-change</link>
             <guid>https://deanonsoftware.com/blog/2011-10-10-kiss-my-for-a-change</guid>
             <pubDate>Mon, 10 Oct 2011 15:18:21 GMT</pubDate>
@@ -498,7 +498,7 @@
             <category>Software Business</category>
         </item>
         <item>
-            <title><![CDATA[Coding Horror &#8220;Nobody is going to help you, and that&#8217;s Awesome]]></title>
+            <title><![CDATA[Coding Horror "Nobody is going to help you, and that's Awesome]]></title>
             <link>https://deanonsoftware.com/blog/2011-07-27-coding-horror-nobody-is-going-to-help-you-and-thats-awesome</link>
             <guid>https://deanonsoftware.com/blog/2011-07-27-coding-horror-nobody-is-going-to-help-you-and-thats-awesome</guid>
             <pubDate>Wed, 27 Jul 2011 20:35:32 GMT</pubDate>
@@ -678,7 +678,7 @@
             <category>Software Business</category>
         </item>
         <item>
-            <title><![CDATA[Apple&#8217;s new headquarters presented by none other then Steve Jobs]]></title>
+            <title><![CDATA[Apple's new headquarters presented by none other then Steve Jobs]]></title>
             <link>https://deanonsoftware.com/blog/2011-06-08-apples-new-headquarters-presented-by-none-other-then-steve-jobs</link>
             <guid>https://deanonsoftware.com/blog/2011-06-08-apples-new-headquarters-presented-by-none-other-then-steve-jobs</guid>
             <pubDate>Thu, 09 Jun 2011 03:30:43 GMT</pubDate>
@@ -848,7 +848,7 @@
             <category>Software Business</category>
         </item>
         <item>
-            <title><![CDATA[SPITZER on CNN &#8220;speak plain English&#8221;]]></title>
+            <title><![CDATA[SPITZER on CNN "speak plain English"]]></title>
             <link>https://deanonsoftware.com/blog/2011-03-23-spitzer-on-cnn-speak-plain-english</link>
             <guid>https://deanonsoftware.com/blog/2011-03-23-spitzer-on-cnn-speak-plain-english</guid>
             <pubDate>Wed, 23 Mar 2011 19:28:07 GMT</pubDate>
@@ -988,7 +988,7 @@
             <category>Software Business</category>
         </item>
         <item>
-            <title><![CDATA[Update on &#8220;CuttingBoardGate&#8221;]]></title>
+            <title><![CDATA[Update on "CuttingBoardGate"]]></title>
             <link>https://deanonsoftware.com/blog/2011-02-08-update-on-cuttingboardgate</link>
             <guid>https://deanonsoftware.com/blog/2011-02-08-update-on-cuttingboardgate</guid>
             <pubDate>Wed, 09 Feb 2011 01:16:36 GMT</pubDate>
@@ -1171,7 +1171,7 @@
             <category>Software Business</category>
         </item>
         <item>
-            <title><![CDATA[Tim Berners-Lee Says Web is Dead? or in trouble&#8230;]]></title>
+            <title><![CDATA[Tim Berners-Lee Says Web is Dead? or in trouble...]]></title>
             <link>https://deanonsoftware.com/blog/2010-11-19-tim-berners-lee-says-web-is-dead-or-in-trouble</link>
             <guid>https://deanonsoftware.com/blog/2010-11-19-tim-berners-lee-says-web-is-dead-or-in-trouble</guid>
             <pubDate>Sat, 20 Nov 2010 02:08:25 GMT</pubDate>
@@ -1341,7 +1341,7 @@
             <category>Software Business</category>
         </item>
         <item>
-            <title><![CDATA[Tom Peters &#8220;The Little BIG Things&#8221; Vook review]]></title>
+            <title><![CDATA[Tom Peters "The Little BIG Things" Vook review]]></title>
             <link>https://deanonsoftware.com/blog/2010-09-19-tom-peters-the-little-big-things-vook-review</link>
             <guid>https://deanonsoftware.com/blog/2010-09-19-tom-peters-the-little-big-things-vook-review</guid>
             <pubDate>Sun, 19 Sep 2010 18:29:46 GMT</pubDate>
@@ -1351,7 +1351,7 @@
             <category>Software Business</category>
         </item>
         <item>
-            <title><![CDATA[Kapsoft Ships RF Testing System&#8230;we shipped something!!!]]></title>
+            <title><![CDATA[Kapsoft Ships RF Testing System...we shipped something!!!]]></title>
             <link>https://deanonsoftware.com/blog/2010-09-18-kapsoft-ships-rf-testing-system-we-shipped-something</link>
             <guid>https://deanonsoftware.com/blog/2010-09-18-kapsoft-ships-rf-testing-system-we-shipped-something</guid>
             <pubDate>Sat, 18 Sep 2010 19:23:21 GMT</pubDate>
@@ -1361,7 +1361,7 @@
             <category>Software Business</category>
         </item>
         <item>
-            <title><![CDATA[Review of Seth Godin&#8217;s Linchpin read on Vook]]></title>
+            <title><![CDATA[Review of Seth Godin's Linchpin read on Vook]]></title>
             <link>https://deanonsoftware.com/blog/2010-09-06-review-of-seth-godins-linchpin-read-on-vook</link>
             <guid>https://deanonsoftware.com/blog/2010-09-06-review-of-seth-godins-linchpin-read-on-vook</guid>
             <pubDate>Mon, 06 Sep 2010 16:23:36 GMT</pubDate>
@@ -1381,7 +1381,7 @@
             <category>Software Business</category>
         </item>
         <item>
-            <title><![CDATA[Inception, my thoughts. Unless I&#8217;m &#8220;really&#8221; dreaming.]]></title>
+            <title><![CDATA[Inception, my thoughts. Unless I'm "really" dreaming.]]></title>
             <link>https://deanonsoftware.com/blog/2010-07-24-inception-my-thoughts-unless-im-really-dreaming</link>
             <guid>https://deanonsoftware.com/blog/2010-07-24-inception-my-thoughts-unless-im-really-dreaming</guid>
             <pubDate>Sat, 24 Jul 2010 19:43:22 GMT</pubDate>
@@ -1878,7 +1878,7 @@
             <category>Software Business</category>
         </item>
         <item>
-            <title><![CDATA[Free Ticket to &#8220;Voices That Matter iPhone Developers Conference&#8221;]]></title>
+            <title><![CDATA[Free Ticket to "Voices That Matter iPhone Developers Conference"]]></title>
             <link>https://deanonsoftware.com/blog/2009-09-10-free-ticket-to-voice-that-matter-iphone-developers-conference</link>
             <guid>https://deanonsoftware.com/blog/2009-09-10-free-ticket-to-voice-that-matter-iphone-developers-conference</guid>
             <pubDate>Thu, 10 Sep 2009 19:34:15 GMT</pubDate>
@@ -2154,7 +2154,7 @@
             <category>Uncategorized</category>
         </item>
         <item>
-            <title><![CDATA[I&#8217;d rather read]]></title>
+            <title><![CDATA[I'd rather read]]></title>
             <link>https://deanonsoftware.com/blog/2008-10-14-id-rather-read</link>
             <guid>https://deanonsoftware.com/blog/2008-10-14-id-rather-read</guid>
             <pubDate>Tue, 14 Oct 2008 05:34:22 GMT</pubDate>
@@ -2356,7 +2356,7 @@
             <category>Synthetic Instruments</category>
         </item>
         <item>
-            <title><![CDATA[Russia builds &#8216;most powerful bomb&#8217;]]></title>
+            <title><![CDATA[Russia builds 'most powerful bomb']]></title>
             <link>https://deanonsoftware.com/blog/2007-09-12-russia-builds-most-powerful-bomb</link>
             <guid>https://deanonsoftware.com/blog/2007-09-12-russia-builds-most-powerful-bomb</guid>
             <pubDate>Wed, 12 Sep 2007 15:34:05 GMT</pubDate>
@@ -2461,7 +2461,7 @@
             <category>OpenMoko</category>
         </item>
         <item>
-            <title><![CDATA[California&#8217;s positive attitude]]></title>
+            <title><![CDATA[California's positive attitude]]></title>
             <link>https://deanonsoftware.com/blog/2007-07-19-californias-positive-attitude</link>
             <guid>https://deanonsoftware.com/blog/2007-07-19-californias-positive-attitude</guid>
             <pubDate>Thu, 19 Jul 2007 07:25:31 GMT</pubDate>
