@@ -1,0 +1,43 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Kapsoft",
+    "home_page_url": "https://deanonsoftware.com",
+    "feed_url": "https://deanonsoftware.com/feed.json",
+    "description": "Thoughts on software development and technology",
+    "icon": "https://deanonsoftware.com/favicon.ico",
+    "author": {
+        "name": "Dean Kapland",
+        "url": "https://deanonsoftware.com/about"
+    },
+    "items": [
+        {
+            "id": "https://deanonsoftware.com/blog/2024-01-01-test-post",
+            "content_html": "This is a test post to make sure everything is working",
+            "url": "https://deanonsoftware.com/blog/2024-01-01-test-post",
+            "title": "Test Post",
+            "summary": "This is a test post to make sure everything is working",
+            "date_modified": "2024-01-01T10:00:00.000Z",
+            "author": {
+                "name": "Dean Kapland"
+            },
+            "tags": [
+                "Technology"
+            ]
+        },
+        {
+            "id": "https://deanonsoftware.com/blog/2024-01-01-welcome-to-dean-on-software",
+            "content_html": "Welcome to my new blog where I'll be sharing thoughts on software development, technology, and building great software products.",
+            "url": "https://deanonsoftware.com/blog/2024-01-01-welcome-to-dean-on-software",
+            "title": "Welcome to Dean on Software",
+            "summary": "Welcome to my new blog where I'll be sharing thoughts on software development, technology, and building great software products.",
+            "date_modified": "2024-01-01T00:00:00.000Z",
+            "author": {
+                "name": "Dean Kapland"
+            },
+            "tags": [
+                "welcome",
+                "meta"
+            ]
+        }
+    ]
+}

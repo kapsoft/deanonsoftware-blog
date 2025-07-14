@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Kapsoft</title>
+        <link>https://deanonsoftware.com</link>
+        <description>Thoughts on software development and technology</description>
+        <lastBuildDate>Mon, 14 Jul 2025 16:16:01 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>Kapsoft</title>
+            <url>https://deanonsoftware.com/favicon.ico</url>
+            <link>https://deanonsoftware.com</link>
+        </image>
+        <copyright>All rights reserved 2025, Dean Kapland</copyright>
+        <atom:link href="https://deanonsoftware.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Test Post]]></title>
+            <link>https://deanonsoftware.com/blog/2024-01-01-test-post</link>
+            <guid>https://deanonsoftware.com/blog/2024-01-01-test-post</guid>
+            <pubDate>Mon, 01 Jan 2024 10:00:00 GMT</pubDate>
+            <description><![CDATA[This is a test post to make sure everything is working]]></description>
+            <content:encoded><![CDATA[This is a test post to make sure everything is working]]></content:encoded>
+            <author>kaplan@kapsoft.com (Dean Kapland)</author>
+            <category>Technology</category>
+        </item>
+        <item>
+            <title><![CDATA[Welcome to Dean on Software]]></title>
+            <link>https://deanonsoftware.com/blog/2024-01-01-welcome-to-dean-on-software</link>
+            <guid>https://deanonsoftware.com/blog/2024-01-01-welcome-to-dean-on-software</guid>
+            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to my new blog where I'll be sharing thoughts on software development, technology, and building great software products.]]></description>
+            <content:encoded><![CDATA[Welcome to my new blog where I'll be sharing thoughts on software development, technology, and building great software products.]]></content:encoded>
+            <author>kaplan@kapsoft.com (Dean Kapland)</author>
+            <category>welcome</category>
+            <category>meta</category>
+        </item>
+    </channel>
+</rss>

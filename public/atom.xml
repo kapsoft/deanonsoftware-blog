@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://deanonsoftware.com</id>
+    <title>Kapsoft</title>
+    <updated>2025-07-14T16:16:01.158Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Dean Kapland</name>
+        <email>kaplan@kapsoft.com</email>
+        <uri>https://deanonsoftware.com/about</uri>
+    </author>
+    <link rel="alternate" href="https://deanonsoftware.com"/>
+    <link rel="self" href="https://deanonsoftware.com/atom.xml"/>
+    <subtitle>Thoughts on software development and technology</subtitle>
+    <logo>https://deanonsoftware.com/favicon.ico</logo>
+    <icon>https://deanonsoftware.com/favicon.ico</icon>
+    <rights>All rights reserved 2025, Dean Kapland</rights>
+    <entry>
+        <title type="html"><![CDATA[Test Post]]></title>
+        <id>https://deanonsoftware.com/blog/2024-01-01-test-post</id>
+        <link href="https://deanonsoftware.com/blog/2024-01-01-test-post"/>
+        <updated>2024-01-01T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a test post to make sure everything is working]]></summary>
+        <content type="html"><![CDATA[This is a test post to make sure everything is working]]></content>
+        <author>
+            <name>Dean Kapland</name>
+            <email>kaplan@kapsoft.com</email>
+        </author>
+        <category label="Technology"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome to Dean on Software]]></title>
+        <id>https://deanonsoftware.com/blog/2024-01-01-welcome-to-dean-on-software</id>
+        <link href="https://deanonsoftware.com/blog/2024-01-01-welcome-to-dean-on-software"/>
+        <updated>2024-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to my new blog where I'll be sharing thoughts on software development, technology, and building great software products.]]></summary>
+        <content type="html"><![CDATA[Welcome to my new blog where I'll be sharing thoughts on software development, technology, and building great software products.]]></content>
+        <author>
+            <name>Dean Kapland</name>
+            <email>kaplan@kapsoft.com</email>
+        </author>
+        <category label="welcome"/>
+        <category label="meta"/>
+    </entry>
+</feed>
