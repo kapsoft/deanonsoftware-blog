@@ -12,7 +12,7 @@ export default function Header({ onSearch }) {
           <div className="hidden md:flex items-center gap-6">
             <Link href="/" className="text-gray-600 hover:text-gray-900">Blog</Link>
             <a href="https://kapsoft.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">Kapsoft</a>
-            <Link href="/stencils" className="text-gray-600 hover:text-gray-900">Stencils</Link>
+            <a href="https://mobilestencil.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">Stencils</a>
             <Link href="/about" className="text-gray-600 hover:text-gray-900">About</Link>
           </div>
         </div>
@@ -23,7 +23,7 @@ export default function Header({ onSearch }) {
         <div className="flex md:hidden items-center gap-4 mt-2">
           <Link href="/" className="text-gray-600 hover:text-gray-900">Blog</Link>
           <a href="https://kapsoft.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">Kapsoft</a>
-          <Link href="/stencils" className="text-gray-600 hover:text-gray-900">Stencils</Link>
+          <a href="https://mobilestencil.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">Stencils</a>
           <Link href="/about" className="text-gray-600 hover:text-gray-900">About</Link>
         </div>
       </nav>

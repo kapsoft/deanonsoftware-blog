@@ -48,7 +48,7 @@ function generateRssFeed() {
       
       // Extract excerpt if not provided
       let excerpt = data.excerpt;
-      if (!excerpt) {
+      if (!excerpt && content) {
         const stripped = content.replace(/```[\s\S]*?```/g, '');
         const plainText = stripped
           .replace(/#{1,6}\s/g, '')
@@ -67,28 +67,52 @@ function generateRssFeed() {
         }
       }
       
+      // Ensure we have valid data
+      if (!data.title || !data.date) {
+        console.log(`Skipping ${fileName} - missing title or date`);
+        return null;
+      }
+      
       return {
         ...data,
         excerpt,
         slug: fileName.replace(/\.md$/, '')
       };
     })
+    .filter(post => post !== null) // Filter out null posts
     .sort((a, b) => new Date(b.date) - new Date(a.date));
 
   // Add posts to feed
   posts.forEach(post => {
+    // Skip posts with missing required fields
+    if (!post.title || !post.date || !post.slug) {
+      console.log(`Skipping post ${post.slug || 'unknown'} due to missing required fields`);
+      return;
+    }
+
+    // Ensure all fields are strings and not undefined/null
+    const safeTitle = String(post.title || 'Untitled');
+    const safeExcerpt = String(post.excerpt || 'No excerpt available');
+    const safeAuthor = String(post.author || 'Dean Kapland');
+    const safeDate = post.date ? new Date(post.date) : new Date();
+    
+    // Ensure categories are valid strings
+    const safeCategories = post.categories && Array.isArray(post.categories) 
+      ? post.categories.filter(cat => cat && typeof cat === 'string').map(cat => ({ name: String(cat) }))
+      : [];
+
     feed.addItem({
-      title: post.title,
+      title: safeTitle,
       id: `${siteUrl}/blog/${post.slug}`,
       link: `${siteUrl}/blog/${post.slug}`,
-      description: post.excerpt,
-      content: post.excerpt, // You could include full content here if desired
+      description: safeExcerpt,
+      content: safeExcerpt, // You could include full content here if desired
       author: [{
-        name: post.author || 'Dean Kapland',
+        name: safeAuthor,
         email: 'kaplan@kapsoft.com'
       }],
-      date: new Date(post.date),
-      category: post.categories ? post.categories.map(cat => ({ name: cat })) : []
+      date: safeDate,
+      category: safeCategories
     });
   });
 
