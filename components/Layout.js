@@ -1,5 +1,6 @@
 import Header from './Header';
 import Footer from './Footer';
+import CookieConsent from './CookieConsent';
 
 export default function Layout({ children, onSearch }) {
   return (
@@ -9,6 +10,7 @@ export default function Layout({ children, onSearch }) {
         {children}
       </main>
       <Footer />
+      <CookieConsent />
     </div>
   );
 }

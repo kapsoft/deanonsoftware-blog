@@ -14,6 +14,9 @@ export default function Footer() {
             <Link href="/rss.xml" className="text-gray-600 hover:text-gray-900">
               RSS
             </Link>
+            <Link href="/privacy" className="text-gray-600 hover:text-gray-900">
+              Privacy
+            </Link>
             <a 
               href="https://twitter.com/kapsoft" 
               target="_blank" 
